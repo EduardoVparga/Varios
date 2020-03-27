@@ -4,7 +4,7 @@ from pandas import read_csv
 from scrapy.http import Request
 import json
 
-cod_municipos = read_csv('C:/Users/Usuario/Desktop/Trabajos U/CONTABILIDAD AVANZADA 3/regalias_proj/codigos_municipos.csv', encoding= 'cp1252')
+cod_municipos = read_csv('codigos_municipos.csv', encoding= 'cp1252') # Debe ir la direccion donde este ubicado el archivo
 cod_municipos = cod_municipos.values[2:]
 
 
